@@ -50,7 +50,7 @@ class ArvoreDiagnostico:
         febre_sim.left.left = Node("Pode ser dengue.")
         febre_sim.left.right = Node("Pode ser virose.")
 
-        # ⚠️ Aqui temos mais uma subdivisão → exige dois níveis
+        #  Aqui temos mais uma subdivisão → exige dois níveis
         febre_sim.right.left = Node("Está com dor muscular?")
         febre_sim.right.right = Node("Pode ser infecção leve.")
 
